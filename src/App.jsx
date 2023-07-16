@@ -105,7 +105,7 @@ function App() {
         animationHandler={rotateAnimationHandler}
         swipeable={false}
       >
-        {images.map((URL, index) => (
+        {images?.map((URL, index) => (
           <div className="slide">
             <img alt="sample_file" src={URL} key={index} />
           </div>
